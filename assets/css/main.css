@@ -1,0 +1,139 @@
+/*
+=========COLORS========
+#333
+#3dc8d5
+#8507e1
+#ccc
+*/
+
+@font-face {
+    font-family: GildaDisplay;
+    src: url("../font/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: MavenPro;
+    src: url("../font/MavenPro-VariableFont_wght.ttf");
+}
+
+/* 
+================GENERAL=================
+*/
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+================HEADER=================
+*/
+
+body header {
+    background-color: #333;
+    padding: 0 1vw 0 1vw;
+    padding-bottom: 2vh;
+}
+
+body header .logo {
+    font-family: MavenPro;
+    font-size: 1.1rem;
+    color: #ccc;
+    letter-spacing: .1vw;
+}
+
+body header div {
+    width: 14vw;
+    margin: 24vh auto 30vh auto;
+    background-image: linear-gradient(45deg, #8507e1 20%, #194894, #3dc8d5 90%);
+}
+
+body header div:hover {
+    background-image: linear-gradient(45deg, #3dc8d5 10%, #194894, #8507e1 80%);
+}
+
+body header div h1 {
+    color: white;
+    font-family: GildaDisplay;
+    text-align: left;
+    font-size: 4rem;
+    padding: 1vh 0 2vh .5vw;
+}
+
+body header div p {
+    color: white;
+    text-align: left;
+    padding: 0 1vw 1vh .5vw;
+}
+
+
+body header nav ul {
+    font-family: Mavenpro;
+    text-align: right;
+    margin: 10vh 0 2vh 0;
+}
+
+body header nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: .5%;
+}
+
+body header nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+body header nav ul li a:hover {
+    color: white;
+}
+
+#style_projects {
+    text-transform: uppercase;
+}
+
+/* 
+================SECTION=================
+*/
+
+main {
+    height: 60vh;
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+main article h2 {
+    font-size: 3.2rem;
+    padding: 36vh 0 0 25vw;
+}
+
+main article p {
+    font-family: MavenPro;
+    padding: 3vh 49vw 0 25vw;
+}
+
+section .pic_heading_text {
+    width: 40vw;
+    margin: 35vh auto 10vh auto;
+}
+
+section .pic_heading_text img {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+section .pic_heading_text h2 {
+    font-size: 3rem;
+    margin: 5vh 0 2vh 0;
+}
+
+section .pic_heading_text p {
+    padding-bottom: 7vh;
+    font-family: MavenPro;
+    text-transform: uppercase;
+}
